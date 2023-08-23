@@ -8,7 +8,7 @@ get_header();
 ?>
 
 <div class="content">
-    Content
+    <?php esc_html_e('Content Blog', 'aquila'); ?>
 </div>
 
 <?php 
